@@ -109,7 +109,7 @@ a {
     border-radius: 5px;
 }
 
-.donate-now .ammount-list ul .second {
+.donate-now .ammount-list ul #ammount-list-second {
     background: #FFEEEE;
     border: 2px solid #FF5959;
     color: #FF5959;
@@ -197,6 +197,16 @@ a {
 
 .donation-numbers {
     margin: 120px auto;
+}
+
+.donation-numbers .title {
+    color: #121212;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.donation-numbers .all-numbers{
     display: flex;
     justify-content: space-between;
 }
